@@ -10,7 +10,7 @@ int factorial(int n){
 
 int main()
 {
-    int f,n,choice;
+    int n,choice;
     do
     {
         cout<<"enter the number to find factorial : "<<endl;
@@ -22,5 +22,6 @@ int main()
 
 
     } while (choice == 1 );
+    return 0;
     
 }
