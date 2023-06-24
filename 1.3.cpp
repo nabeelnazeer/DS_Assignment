@@ -6,7 +6,7 @@ using namespace std;
 string reversestring(const string&str, int index){
 
     if (index==-1){
-        return "t";
+        return "";
 
     }
     return str[index] + reversestring(str, index-1);
