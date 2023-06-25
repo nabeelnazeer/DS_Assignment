@@ -3,8 +3,8 @@
 using namespace std;
 
 string BinaryOf(int n){
-   if (n/2 == 0)
-	return "0";
+   if (n == 0)
+	return "";
 
   string str = to_string(n%2);
   return str + BinaryOf(n/2);
@@ -17,7 +17,6 @@ int main()
    cout<<"enter decimal to convert to its binary form : "<<endl;
    cin>>n;
    string number = BinaryOf(n);
-   binary = stoi(number);
-   cout<<"Binary form : "<<binary<<endl;
+   cout<<"Binary form : "<<number<<endl;
    return 0;
 }
