@@ -20,3 +20,6 @@ int main()
     return 0;
 
 }
+/* enter the string to get it reversed : 
+helloworld        
+reversed output : dlrowolleh */

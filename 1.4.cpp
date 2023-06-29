@@ -35,3 +35,7 @@ int main()
     return 0;
 
 }
+/* enter the string to check if its a palindrome : 
+malayalam
+reversed = malayalam
+ it is a palindrome */

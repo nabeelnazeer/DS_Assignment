@@ -21,3 +21,9 @@ int main()
     } while (choice == 1);
     
 }
+/* enter the number to calculate sum upto: 
+6
+sum of 6 numbers is 21
+press 1 if you want to contiue
+press any number to exit
+6 */
